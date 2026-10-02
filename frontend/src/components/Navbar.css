@@ -1,0 +1,155 @@
+
+/* NAVBAR */
+
+.navbar {
+  height: 90px;
+  padding: 0 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.brandName {
+  color: var(--navy);
+  font-family: Georgia, serif;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.brandSub {
+  color: var(--gold);
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.navLinks a {
+  color: var(--navy);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navLinks a:hover {
+  color: var(--gold);
+}
+
+.contactButton {
+  border: 1px solid var(--gold);
+  padding: 11px 20px;
+}
+::selection {
+  background: var(--gold);
+  color: white;
+}
+.navbar {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.04);
+}
+
+.navLinks a {
+  position: relative;
+}
+
+.navLinks a:not(.contactButton)::after {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  bottom: -7px;
+
+  width: 0;
+  height: 1px;
+
+  background: var(--gold);
+  transition: width 0.25s ease;
+}
+
+.navLinks a:not(.contactButton):hover::after {
+  width: 100%;
+}
+
+.contactButton:hover {
+  background: var(--navy);
+  color: white !important;
+  border-color: var(--navy);
+}
+.navbar {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.04);
+}
+
+.navLinks a {
+  position: relative;
+}
+
+.navLinks a:not(.contactButton)::after {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  bottom: -7px;
+
+  width: 0;
+  height: 1px;
+
+  background: var(--gold);
+  transition: width 0.25s ease;
+}
+
+.navLinks a:not(.contactButton):hover::after {
+  width: 100%;
+}
+
+.contactButton:hover {
+  background: var(--navy);
+  color: white !important;
+  border-color: var(--navy);
+}
+.primaryButton:hover {
+  background: var(--gold);
+}
+
+.secondaryButton:hover {
+  background: var(--navy);
+  color: white;
+}
+
+.contactForm button:hover {
+  background: #9f7936;
+  transform: translateY(-2px);
+}
+/* MEDIA QUERIES */
+
+@media (max-width: 900px) {
+
+  /* NAVBAR */
+
+  .navbar {
+    height: 75px;
+    padding: 0 6%;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .brandName {
+    font-size: 27px;
+  }
+}
+
