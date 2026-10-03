@@ -13,7 +13,7 @@ const jwt = require("jsonwebtoken");
 
 const Admin = require("./models/Admin");
 const Inquiry = require("./models/Inquiry");
-const Article = require("./models/article");
+const Article = require("./models/Article");
 const protectAdmin = require("./middleware/authMiddleware");
 const Testimonial = require("./models/Testimonial");
 const app = express();
