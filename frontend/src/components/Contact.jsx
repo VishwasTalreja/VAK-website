@@ -84,7 +84,9 @@ const [status, setStatus] = useState("");
 
           <div>
             <span>EMAIL</span>
-            <p>vivektalreja18@gmail.com</p>
+            <a href="mailto:vivektalreja18@gmail.com">
+              vivektalreja18@gmail.com
+            </a>
           </div>
 
         </div>
