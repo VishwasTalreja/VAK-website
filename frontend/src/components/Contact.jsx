@@ -77,8 +77,8 @@ const [status, setStatus] = useState("");
 
           <div>
             <span>PHONE</span>
-            <a href="tel:+923360388955">
-              +92 336 0388955
+            <a href="tel:+923003140926">
+              +92 3003140926
             </a>
           </div>
 
