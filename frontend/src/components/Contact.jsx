@@ -82,12 +82,18 @@ const [status, setStatus] = useState("");
             </a>
           </div>
 
-          <div>
-            <span>EMAIL</span>
-            <a href="mailto:vivektalreja18@gmail.com">
-              vivektalreja18@gmail.com
-            </a>
-          </div>
+      
+<div>
+  <span>EMAIL</span>
+  <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=vivektalreja18@gmail.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    vivektalreja18@gmail.com
+  </a>
+</div>
+
 
         </div>
 
