@@ -36,15 +36,7 @@ function App() {
       <Route
   path="/insights"
   element={<AllInsights />}
-/>
-
-<Route
-  path="/insights/:id"
-  element={<ArticlePage />}
-/>
-      
-
-      <Route
+/>      <Route
         path="/admin/dashboard"
         element={
           token
